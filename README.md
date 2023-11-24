@@ -1,1 +1,0 @@
-# manjiri-pathak-portfolio
