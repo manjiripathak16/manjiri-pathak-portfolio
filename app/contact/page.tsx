@@ -15,8 +15,10 @@ const Contact = () => {
             height={200}
           />
 
-          <p className="text-lg text-gray-700 px-2 md:px-0 text-center  m-8 md:mr-24 md:ml-24">
-            <h2 className="text-3xl text-gray-600 my-12">Get in touch!</h2>
+          <p className="text-lg text-gray-700 px-2 md:px-0 text-center m-8 md:mr-24 md:ml-24">
+            <h2 className="text-3xl md:text-left text-gray-600 my-12">
+              Get in touch!
+            </h2>
             <ul>
               <li>Email: manjiripathak01@gmail.com</li>
               <div className="flex gap-4 mb-12">
