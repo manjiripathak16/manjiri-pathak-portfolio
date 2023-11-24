@@ -90,9 +90,15 @@ const projects = () => {
             <li>Tailwind CSS</li>
             <li>TypeScript</li>
           </ul>
-          <button className="bg-white hover:bg-blue-50 text-black border-2 border-slate-300 px-4 py-2 rounded-md mt-4">
-            View on GitHub
-          </button>
+          <Link
+            href="https://github.com/manjiripathak16/manjiri-pathak-portfolio"
+            target="_blank"
+            rel="noopener"
+          >
+            <button className="bg-white hover:bg-blue-50 text-black border-2 border-slate-300 px-4 py-2 rounded-md mt-4">
+              View on GitHub
+            </button>
+          </Link>
         </div>
       </div>
     </div>

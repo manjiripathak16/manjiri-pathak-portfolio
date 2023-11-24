@@ -30,7 +30,7 @@ export default function Home() {
               </button>
             </Link>
             <Link
-              href="https://drive.google.com/file/d/1Y1zjCtuCyfCJirgBu7A1SAdcXhlqy-48/view?usp=drive_link"
+              href="https://drive.google.com/file/d/19BTanCDs1PpiTVuY0Do3xkc5ryKRWM2C/view?usp=drive_link"
               target="_blank"
               rel="noopener"
             >
