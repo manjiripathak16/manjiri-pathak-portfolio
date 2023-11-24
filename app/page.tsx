@@ -159,7 +159,7 @@ export default function Home() {
             PHILOSOPHY
           </p>
 
-          <p className="text-lg mt-4 ml-0 p-4 text-gray-700 md:mx-12 text-center md:text-right">
+          <p className="text-lg mt-4 ml-0 p-4 md:p-0 text-gray-700 md:mx-12 text-center md:text-right">
             Inspired by the quest for adding value to every endeavor, I am
             driven by the ambition to unravel captivating challenges through my
             efforts. To me, the journey of conceiving an idea, dedicating
