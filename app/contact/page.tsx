@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <div className="bg-slate-100 text-gray-800 min-h-screen p-8 flex flex-col items-center ">
       <div className=" grid grid-rows-1 gap-4 ">
-        <div className="bg-white mb-24 rounded shadow hover:shadow-lg transition duration-300 ease-in-out flex flex-col md:flex-row  items-center">
+        <div className="bg-white mb-24 mx-12 rounded shadow hover:shadow-lg transition duration-300 ease-in-out flex flex-col md:flex-row  items-center">
           <Image
             className="h-52 rounded-full md:rounded-lg mt-12 shadow border-solid border-4 md:mb-12 md:ml-24 border-rose-400"
             src="/profilephoto.jpeg"
@@ -15,7 +15,7 @@ const Contact = () => {
             height={200}
           />
 
-          <p className="text-lg text-gray-700 px-2 md:px-0  m-8 md:mr-24 md:ml-24">
+          <p className="text-lg text-gray-700 px-2 md:px-0 text-center  m-8 md:mr-24 md:ml-24">
             <h2 className="text-3xl text-gray-600 my-12">Get in touch!</h2>
             <ul>
               <li>Email: manjiripathak01@gmail.com</li>
