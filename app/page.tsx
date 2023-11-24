@@ -93,17 +93,17 @@ export default function Home() {
         />
       </div>
 
-      <div className="max-w-5xl bg-white pr-4 rounded-lg shadow-lg hover:shadow-2xl transition duration-300 ease-in-out mb-8 text-center relative flex flex-col md:flex-row items-center">
+      <div className="max-w-5xl bg-white md:pr-4 rounded-lg shadow-lg hover:shadow-2xl transition duration-300 ease-in-out mb-8 text-center relative flex flex-col md:flex-row items-center">
         <Image
-          className="w-48 md:w-56 ml-32"
+          className="w-48 md:w-56 md:ml-32"
           src="/laptop wave.png"
           alt="close"
           width={200}
           height={200}
         />
 
-        <div className="justify-center text-center md:text-left md:ml-32 ">
-          <h2 className="text-3xl text-gray-600 ml-4 my-12">My Skills</h2>
+        <div className="justify-center mr-0 text-center md:text-left md:ml-32">
+          <h2 className="text-3xl text-gray-600 md:ml-4 my-12">My Skills</h2>
           <button className="btn-primary ml-4 mb-4 bg-white hover:bg-rose-50 text-black border-2 border-rose-300 px-4 py-2 rounded-md">
             HTML
           </button>
@@ -146,12 +146,20 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="max-w-5xl bg-white rounded-lg shadow-lg hover:shadow-2xl transition duration-300 ease-in-out mb-8 text-center relative flex flex-col md:flex-row md:gap-8 items-center">
-        <div className="text-left ml-20">
-          <p className="text-3xl text-gray-600 mt-8 ml-12 md:mt-12">
+      <div className="max-w-5xl bg-white rounded-lg shadow-lg hover:shadow-2xl transition duration-300 ease-in-out mb-8 text-center relative flex flex-col md:flex-row  md:gap-8 items-center">
+        <Image
+          className="ml-0 mt-8 md:ml-16 md:mt-1"
+          src="/studying.png"
+          alt="close"
+          width={250}
+          height={250}
+        />
+        <div className="text-center md:text-right md:ml-4 md:mr-8">
+          <p className="text-3xl text-gray-600 mt-8 md:mr-12 md:mt-12">
             PHILOSOPHY
           </p>
-          <p className="text-lg mt-4 text-gray-700 mx-12">
+
+          <p className="text-lg mt-4 ml-0 text-gray-700 md:mx-12 text-center md:text-right">
             Inspired by the quest for adding value to every endeavor, I am
             driven by the ambition to unravel captivating challenges through my
             efforts. To me, the journey of conceiving an idea, dedicating
@@ -161,18 +169,11 @@ export default function Home() {
             perfect avenue for embracing and honing this transformative process.
           </p>
           <Link href="/about" rel="noopener">
-            <button className="bg-white hover:bg-blue-50 text-black border-2 border-slate-300 px-4 py-2 rounded-md ml-12 mt-4 mb-12">
+            <button className="bg-white hover:bg-blue-50 text-black border-2 border-slate-300 px-4 py-2 rounded-md md:mr-12 mt-4 mb-12">
               More About Me
             </button>
           </Link>
         </div>
-        <Image
-          className="mr-0 mt-8 md:mr-16 md:mt-1"
-          src="/studying.png"
-          alt="close"
-          width={250}
-          height={250}
-        />
       </div>
     </div>
   );
