@@ -14,7 +14,7 @@ const About = () => {
             height={200}
           />
 
-          <p className="text-lg text-gray-700 px-2 md:px-0 text-center m-8 md:mr-24">
+          <p className="text-lg text-gray-700  md:px-0 text-center m-8 md:mr-24">
             I am a passionate computer science engineer with a keen enthusiasm
             for learning and implementing cutting-edge technologies to create
             innovative products. As a software developer, I thrive on the

@@ -102,45 +102,45 @@ export default function Home() {
           height={200}
         />
 
-        <div className="justify-center mr-0 text-center md:text-left md:ml-32">
+        <div className="justify-center gap-2 mr-0 text-center md:text-left md:ml-32">
           <h2 className="text-3xl text-gray-600 md:ml-4 my-12">My Skills</h2>
-          <button className="btn-primary ml-4 mb-4 bg-white hover:bg-rose-50 text-black border-2 border-rose-300 px-4 py-2 rounded-md">
+          <button className="btn-primary md:ml-4 mb-4 bg-white hover:bg-rose-50 text-black border-2 border-rose-300 px-4 py-2 rounded-md">
             HTML
           </button>
-          <button className="btn-primary ml-4 mb-4 bg-white hover:bg-rose-50 text-black border-2 border-rose-300 px-4 py-2 rounded-md">
+          <button className="btn-primary md:ml-4 mb-4 bg-white hover:bg-rose-50 text-black border-2 border-rose-300 px-4 py-2 rounded-md">
             CSS
           </button>
-          <button className="btn-primary ml-4 mb-4 bg-white hover:bg-rose-50 text-black border-2 border-rose-300 px-4 py-2 rounded-md">
+          <button className="btn-primary md:ml-4 mb-4 bg-white hover:bg-rose-50 text-black border-2 border-rose-300 px-4 py-2 rounded-md">
             JavaScript
           </button>
-          <button className="btn-primary ml-4 mb-4 bg-white hover:bg-rose-50 text-black border-2 border-rose-300 px-4 py-2 rounded-md">
+          <button className="btn-primary md:ml-4 mb-4 bg-white hover:bg-rose-50 text-black border-2 border-rose-300 px-4 py-2 rounded-md">
             TypeScript
           </button>
-          <button className="btn-primary ml-4 mb-4 bg-white hover:bg-rose-50 text-black border-2 border-rose-300 px-4 py-2 rounded-md">
+          <button className="btn-primary md:ml-4 mb-4 bg-white hover:bg-rose-50 text-black border-2 border-rose-300 px-4 py-2 rounded-md">
             ReactJS
           </button>
-          <button className="btn-primary ml-4 mb-4 bg-white hover:bg-rose-50 text-black border-2 border-rose-300 px-4 py-2 rounded-md">
+          <button className="btn-primary md:ml-4 mb-4 bg-white hover:bg-rose-50 text-black border-2 border-rose-300 px-4 py-2 rounded-md">
             NextJS
           </button>
-          <button className="btn-primary ml-4 mb-4 bg-white hover:bg-rose-50 text-black border-2 border-rose-300 px-4 py-2 rounded-md">
+          <button className="btn-primary md:ml-4 mb-4 bg-white hover:bg-rose-50 text-black border-2 border-rose-300 px-4 py-2 rounded-md">
             NodeJS
           </button>
-          <button className="btn-primary ml-4 mb-4 bg-white hover:bg-rose-50 text-black border-2 border-rose-300 px-4 py-2 rounded-md">
+          <button className="btn-primary md:ml-4 mb-4 bg-white hover:bg-rose-50 text-black border-2 border-rose-300 px-4 py-2 rounded-md">
             ExpressJS
           </button>
-          <button className="btn-primary ml-4 mb-4 bg-white hover:bg-rose-50 text-black border-2 border-rose-300 px-4 py-2 rounded-md">
+          <button className="btn-primary md:ml-4 mb-4 bg-white hover:bg-rose-50 text-black border-2 border-rose-300 px-4 py-2 rounded-md">
             Tailwind CSS
           </button>
-          <button className="btn-primary ml-4 mb-4 bg-white hover:bg-rose-50 text-black border-2 border-rose-300 px-4 py-2 rounded-md">
+          <button className="btn-primary md:ml-4 mb-4 bg-white hover:bg-rose-50 text-black border-2 border-rose-300 px-4 py-2 rounded-md">
             Java
           </button>
-          <button className="btn-primary ml-4 mb-4 bg-white hover:bg-rose-50 text-black border-2 border-rose-300 px-4 py-2 rounded-md">
+          <button className="btn-primary md:ml-4 mb-4 bg-white hover:bg-rose-50 text-black border-2 border-rose-300 px-4 py-2 rounded-md">
             C++
           </button>
-          <button className="btn-primary ml-4 mb-4 bg-white hover:bg-rose-50 text-black border-2 border-rose-300 px-4 py-2 rounded-md">
+          <button className="btn-primary md:ml-4 mb-4 bg-white hover:bg-rose-50 text-black border-2 border-rose-300 px-4 py-2 rounded-md">
             Docker
           </button>
-          <button className="btn-primary ml-4 mb-16 bg-white hover:bg-rose-50 text-black border-2 border-rose-300 px-4 py-2 rounded-md">
+          <button className="btn-primary md:ml-4 mb-16 bg-white hover:bg-rose-50 text-black border-2 border-rose-300 px-4 py-2 rounded-md">
             Data Structures & Algorithms
           </button>
         </div>
@@ -159,7 +159,7 @@ export default function Home() {
             PHILOSOPHY
           </p>
 
-          <p className="text-lg mt-4 ml-0 text-gray-700 md:mx-12 text-center md:text-right">
+          <p className="text-lg mt-4 ml-0 p-4 text-gray-700 md:mx-12 text-center md:text-right">
             Inspired by the quest for adding value to every endeavor, I am
             driven by the ambition to unravel captivating challenges through my
             efforts. To me, the journey of conceiving an idea, dedicating
